@@ -21,6 +21,7 @@ export const options: MakerUIOptions = {
       link: 'blue',
       text: '#000',
       background: '#ffff',
+      border: '#e2e2e2',
       bg_header: '#fff',
       bg_mobileMenu: '#000',
       bg_footer: '#fff',

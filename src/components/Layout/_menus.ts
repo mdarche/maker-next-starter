@@ -16,4 +16,5 @@ export const primaryMenu: MakerMenu = [
 export const mobileMenu: MakerMenu = [
   { label: '', path: '/' },
   { label: '', path: '/' },
+  { label: '', path: '/' },
 ]

@@ -4,10 +4,12 @@
 
 export const layout_styles = {
   header: {
-    padding: '30px 50px',
+    padding: '10px 50px',
+    borderBottom: '1px solid',
+    borderColor: 'var(--color-border)',
   },
   '#site-logo svg': {
-    height: 40,
+    height: 25,
     fill: '#fff',
   },
 }

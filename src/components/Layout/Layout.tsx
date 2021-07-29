@@ -7,9 +7,9 @@ import {
   Main,
 } from 'maker-ui'
 
+import { options } from './_options'
+import { primaryMenu } from './_menus'
 import { Logo } from '../Logo'
-import { options } from './options'
-import { primaryMenu } from './menus'
 import { styles } from '../../styles'
 
 interface LayoutProps {
