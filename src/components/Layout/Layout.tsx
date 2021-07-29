@@ -7,14 +7,20 @@ import {
   Main,
 } from 'maker-ui'
 
-import { Logo } from './Logo'
-import { options } from '../config/options'
-import { primaryMenu } from '../config/menus'
-import { styles } from '../styles/global'
+import { Logo } from '../Logo'
+import { options } from './options'
+import { primaryMenu } from './menus'
+import { styles } from '../../styles'
 
 interface LayoutProps {
   children: React.ReactNode
 }
+
+/**
+ * The `Layout` component wraps your application in a responsive, customizable
+ * layout system. You can configure this in `./options`
+ * @param children
+ */
 
 export const Layout = ({ children }: LayoutProps) => {
   return (
