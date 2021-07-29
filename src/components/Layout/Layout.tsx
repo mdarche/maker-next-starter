@@ -5,6 +5,7 @@ import {
   MobileMenu,
   Content,
   Main,
+  Footer,
 } from 'maker-ui'
 
 import { options } from './_options'
@@ -32,6 +33,7 @@ export const Layout = ({ children }: LayoutProps) => {
       <Content>
         <Main>{children}</Main>
       </Content>
+      <Footer>copyright</Footer>
     </MakerLayout>
   )
 }

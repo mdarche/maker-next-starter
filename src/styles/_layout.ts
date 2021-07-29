@@ -12,4 +12,7 @@ export const layout_styles = {
     height: 25,
     fill: '#fff',
   },
+  main: {
+    padding: '50px 20px',
+  },
 }
