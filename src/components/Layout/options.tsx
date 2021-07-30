@@ -2,15 +2,17 @@ import Link from 'next/link'
 import { MakerUIOptions } from 'maker-ui'
 
 export const options: MakerUIOptions = {
-  linkFunction: (
+  linkFunction: function nextLink(
     path: string,
     children: React.ReactNode,
     attributes: object
-  ) => (
-    <Link href={path}>
-      <a {...attributes}>{children}</a>
-    </Link>
-  ),
+  ) {
+    return (
+      <Link href={path}>
+        <a {...attributes}>{children}</a>
+      </Link>
+    )
+  },
   fonts: {
     body: 'Helvetica, Arial, sans-serif',
     heading: 'Helvetica, Arial, sans-serif',
