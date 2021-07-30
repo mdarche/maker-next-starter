@@ -10,4 +10,7 @@ export const global_styles = {
     fontFamily: 'var(--font-heading)',
     cursor: 'pointer',
   },
+  p: {
+    fontSize: 16,
+  },
 }

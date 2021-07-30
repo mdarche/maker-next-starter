@@ -7,10 +7,11 @@ import {
   Main,
   Footer,
 } from 'maker-ui'
+import { useRouter } from 'next/router'
 
-import { options } from './_options'
-import { primaryMenu } from './_menus'
 import { Logo } from '../Logo'
+import { options } from './_options'
+import { primary_menu, mobile_menu } from './_menus'
 import { styles } from '../../styles'
 
 interface LayoutProps {
@@ -24,11 +25,13 @@ interface LayoutProps {
  */
 
 export const Layout = ({ children }: LayoutProps) => {
+  const { asPath } = useRouter()
+
   return (
     <MakerLayout options={options} styles={styles}>
       <Header>
-        <Navbar logo={<Logo />} menu={primaryMenu} />
-        <MobileMenu menu={primaryMenu} />
+        <Navbar logo={<Logo />} menu={primary_menu} />
+        <MobileMenu menu={mobile_menu} pathname={asPath} />
       </Header>
       <Content>
         <Main>{children}</Main>

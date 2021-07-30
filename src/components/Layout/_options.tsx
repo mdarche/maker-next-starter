@@ -32,9 +32,10 @@ export const options: MakerUIOptions = {
     maxWidth: 1200,
     navType: 'basic',
     mobileNavType: 'basic',
+    sticky: true,
   },
   content: {
-    maxWidth: 1200,
-    maxWidthSection: 1200,
+    maxWidth: 900,
+    maxWidthSection: 900,
   },
 }
