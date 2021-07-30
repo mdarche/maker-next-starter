@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "test": "echo \"Add some tests\"",
     "lint": "next lint",
     "cypress": "cypress run",
     "cypress:open": "cypress open-ct",
