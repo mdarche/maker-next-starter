@@ -1,3 +1,3 @@
 export { Layout } from './Layout'
 
-export * from './config/_menus'
+export * from './menus'

@@ -17,14 +17,17 @@ export default function IndexPage() {
         post-minimalism neo-fauvism performance art multiculturalism primitivism
         jugendstil sound art. Minimalism surrealism pointilism neo-classicism
         street art postminimalism surrealism manierism, dada social realism
-        post-minimalism neoism nouveau realisme impressionism. Divisionism
-        socialist realism synchromism incoherents postmodernism structuralism
-        der blaue reiter color field painting postminimalism, classicism dadaism
-        luminism modern art formalism pointilism. Scuola romana vorticism
-        postminimalism art nouveau metaphysical art superflat realism young
-        british artists, neo-impressionism monumentalism russian futurism
-        jugendstil baroque neo-fauvism. Bauhaus multiculturalism baroque realism
-        post-minimalism art deco, vorticism synthetism modern art.
+        post-minimalism neoism nouveau realisme impressionism.
+      </p>
+      <p>
+        Divisionism socialist realism synchromism incoherents postmodernism
+        structuralism der blaue reiter color field painting postminimalism,
+        classicism dadaism luminism modern art formalism pointilism. Scuola
+        romana vorticism postminimalism art nouveau metaphysical art superflat
+        realism young british artists, neo-impressionism monumentalism russian
+        futurism jugendstil baroque neo-fauvism. Bauhaus multiculturalism
+        baroque realism post-minimalism art deco, vorticism synthetism modern
+        art.
       </p>
       <p>
         Dadaism naturalism neo-geo multiculturalism hard-edge painting hudson
