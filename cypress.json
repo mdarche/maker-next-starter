@@ -1,7 +1,10 @@
 {
   "$schema": "https://on.cypress.io/cypress.schema.json",
   "testFiles": ["**/*.spec.{ts, tsx}"],
-  "componentFolder": "src",
+  "component": {
+    "componentFolder": "src",
+    "testFiles": "**/*spec.{js,jsx,ts,tsx}"
+  },
   "viewportWidth": 1280,
   "viewportHeight": 800
 }

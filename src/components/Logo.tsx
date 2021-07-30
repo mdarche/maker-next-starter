@@ -1,4 +1,4 @@
-import { SVG, SVGProps } from '@maker-ui/primitives'
+import { SVG, SVGProps } from 'maker-ui'
 
 export const Logo = (props: SVGProps) => {
   return (

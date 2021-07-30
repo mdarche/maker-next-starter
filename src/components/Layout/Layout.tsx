@@ -10,8 +10,8 @@ import {
 import { useRouter } from 'next/router'
 
 import { Logo } from '../Logo'
-import { options } from './_options'
-import { primary_menu, mobile_menu } from './_menus'
+import { options } from './options'
+import { primary_menu, mobile_menu } from './menus'
 import { styles } from '../../styles'
 
 interface LayoutProps {
