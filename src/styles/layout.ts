@@ -2,7 +2,7 @@
  * Maker UI Layout styles
  */
 
-export const layout_styles = {
+const styles = {
   header: {
     padding: '10px 50px',
     borderBottom: '1px solid',
@@ -21,3 +21,5 @@ export const layout_styles = {
     lineHeight: 1.65,
   },
 }
+
+export default styles

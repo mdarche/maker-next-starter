@@ -1,6 +1,6 @@
 {
   "name": "maker-next-starter",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,29 +8,34 @@
     "start": "next start",
     "test": "echo \"Add some tests\"",
     "lint": "next lint",
-    "cypress": "cypress run",
-    "cypress:open": "cypress open-ct",
-    "cypress:run": "cypress run-ct",
+    "cy": "cypress open",
+    "cy:headless": "cypress run",
+    "cy:unit": "cypress open-ct",
+    "cy:unit:headless": "cypress run-ct",
+    "e2e": "start-server-and-test start http://localhost:3000 cy",
+    "e2e:headless": "start-server-and-test start http://localhost:3000 cy:headless",
     "prepare": "husky install"
   },
   "dependencies": {
-    "maker-ui": "^1.0.0-beta.12",
-    "next": "11.0.1",
+    "maker-ui": "^1.1.2",
+    "next": "^12.0.8",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "sharp": "^0.29.3"
   },
   "devDependencies": {
     "@cypress/react": "^5.9.2",
     "@cypress/webpack-dev-server": "^1.4.0",
     "@types/node": "^16.4.7",
     "@types/react": "^17.0.15",
-    "cypress": "^8.1.0",
+    "cypress": "^9.3.1",
     "eslint": "7.31.0",
     "eslint-config-next": "11.0.1",
     "html-webpack-plugin": "5",
     "husky": "^7.0.0",
     "prettier": "^2.3.2",
-    "typescript": "^4.3.5",
+    "start-server-and-test": "^1.14.0",
+    "typescript": "^4.5.5",
     "webpack": "5",
     "webpack-dev-server": "^3.11.2"
   }

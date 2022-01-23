@@ -2,7 +2,7 @@
  * Global HTML styles and CSS resets
  */
 
-export const global_styles = {
+export const styles = {
   a: {
     textDecoration: 'none',
   },
@@ -14,3 +14,5 @@ export const global_styles = {
     fontSize: 16,
   },
 }
+
+export default styles
