@@ -18,17 +18,17 @@
   },
   "dependencies": {
     "maker-ui": "^1.1.2",
-    "next": "^12.0.8",
+    "next": "^12.0.10",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "sharp": "^0.29.3"
+    "sharp": "^0.30.1"
   },
   "devDependencies": {
-    "@cypress/react": "^5.9.2",
+    "@cypress/react": "^5.12.3",
     "@cypress/webpack-dev-server": "^1.4.0",
     "@types/node": "^16.4.7",
     "@types/react": "^17.0.15",
-    "cypress": "^9.3.1",
+    "cypress": "^9.4.1",
     "eslint": "7.31.0",
     "eslint-config-next": "11.0.1",
     "html-webpack-plugin": "5",

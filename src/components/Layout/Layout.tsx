@@ -19,11 +19,11 @@ interface LayoutProps {
 }
 
 /**
- * The `Layout` component wraps your application in a responsive, customizable
- * layout system. You can configure this in `./options`
- * @param children
+ * Wraps your application in a responsive, customizable layout system.
+ * You can configure this in `./options`
+ *
+ * @param {ReactNode} children
  */
-
 export const Layout = ({ children }: LayoutProps) => {
   const { asPath } = useRouter()
 

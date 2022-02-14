@@ -1,7 +1,6 @@
 /**
  * Maker UI Layout styles
  */
-
 const styles = {
   header: {
     padding: '10px 50px',

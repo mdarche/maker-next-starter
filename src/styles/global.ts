@@ -1,8 +1,7 @@
 /**
  * Global HTML styles and CSS resets
  */
-
-export const styles = {
+const styles = {
   a: {
     textDecoration: 'none',
   },
