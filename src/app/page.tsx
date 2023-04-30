@@ -1,15 +1,8 @@
-import Head from 'next/head'
+import { Section } from 'maker-ui'
 
-export default function IndexPage() {
+export default function HomePage() {
   return (
-    <>
-      <Head>
-        <title>Maker UI App Starter</title>
-        <meta
-          name="description"
-          content="Configure your production-ready NextJS app"
-        />
-      </Head>
+    <Section>
       <h1>Home Page</h1>
       <p>
         Modernipsum dolor sit amet intervention art nouveau realisme secularism
@@ -57,6 +50,6 @@ export default function IndexPage() {
         post-minimalism pre-raphaelites jugendstil neue slowenische kunst,
         monumentalism social realism neo-fauvism.
       </p>
-    </>
+    </Section>
   )
 }
